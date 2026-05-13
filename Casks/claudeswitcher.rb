@@ -13,7 +13,5 @@ cask "claudeswitcher" do
 
   app "ClaudeSwitcher.app"
 
-  zap trash: [
-    "~/Library/Preferences/com.thepixelme.claudeswitcher.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.thepixelme.claudeswitcher.plist"
 end
