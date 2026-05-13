@@ -9,8 +9,6 @@ cask "claudeswitcher" do
 
   depends_on macos: :sonoma
 
-  no_quarantine true
-
   app "ClaudeSwitcher.app"
 
   zap trash: "~/Library/Preferences/com.thepixelme.claudeswitcher.plist"
