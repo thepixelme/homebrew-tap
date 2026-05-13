@@ -7,7 +7,7 @@ cask "claudeswitcher" do
   desc "Menu bar app that launches VS Code under different Claude Code accounts"
   homepage "https://github.com/thepixelme/claudeswitcher"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   no_quarantine true
 
