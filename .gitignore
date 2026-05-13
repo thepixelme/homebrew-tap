@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Homebrew
+*.bottle.tar.gz
+*.bottle.json
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+
+# Logs
+*.log
+brew-test-bot.log
+
+# Local Homebrew state
+.brew/
+Brewfile.lock.json
+
+# Environment / secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Build artifacts
+build/
+dist/
+tmp/
